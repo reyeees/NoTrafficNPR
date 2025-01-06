@@ -19,6 +19,6 @@ namespace NoTrafficModNRP.HPatchers
             var scene = GodConstant.Instance.scene_currentType;
             var gameMode = GodConstant.Instance.game_currentMode;
             return GodConstant.Instance.scene_currentType == GodConstant.Scene_currentType.FREEROAM && gameMode != GodConstant.Game_currentMode.main_menu;
-        } // from https://github.com/Scoolnik/SK.NRMods/blob/1e26767c73ba66dbd2901ef44ae01cb35fdd59da/SK.NRMods.DragStats/HarmonyPatchers/DragStatsPatch.cs#L85
+        } 
     }
 }
