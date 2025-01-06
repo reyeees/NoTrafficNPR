@@ -15,10 +15,10 @@ Small BepInEx plugin to remove all traffic from the roads
 3. Take this libs from game folder to `Libs` folder in the project:
    Path | Lib
    -|-
-   |\BepInEx\core|0Harmony.dll|
+   |\BepInEx\core\|0Harmony.dll|
    ||BepInEx.Core.dll|
    ||
-   |\BepInEx\interop|Assembly-CSharp.dll|
+   |\BepInEx\interop\|Assembly-CSharp.dll|
    ||Il2Cppmscorlib.dll|
    ||UnityEngine.CoreModule.dll|
    ||UnityEngine.dll|
