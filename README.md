@@ -11,7 +11,7 @@ Small BepInEx plugin to remove all traffic from the roads
 
 ## Building from source:
 1. Download this repository
-2. Download Visual Studio with .NET>6.0
+2. Install Visual Studio with .NET>6.0
 3. Take this libs from game folder to `Libs` folder in the project:
    Path | Lib
    -|-
