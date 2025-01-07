@@ -16,9 +16,7 @@ namespace NoTrafficModNRP.HPatchers
 
         private static bool IsDriveScene()
         {
-            var scene = GodConstant.Instance.scene_currentType;
-            var gameMode = GodConstant.Instance.game_currentMode;
-            return GodConstant.Instance.scene_currentType == GodConstant.Scene_currentType.FREEROAM && gameMode != GodConstant.Game_currentMode.main_menu;
+            return GodConstant.Instance.scene_currentType == GodConstant.Scene_currentType.FREEROAM && GodConstant.Instance.game_currentMode != GodConstant.Game_currentMode.main_menu;
         } 
     }
 }
